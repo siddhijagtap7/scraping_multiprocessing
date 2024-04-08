@@ -1,0 +1,12 @@
+{
+  "no_of_pages":1,
+  "search_company": ["Microsoft","Tesla"],
+  "search_keyword":["Products","Shares"],
+  "logger_file": "logger.log",
+  "output_file": "output.csv",
+  "base_urls": {
+    "Google":  "https://www.google.com/search?q={company_key}&tbm=nws&start={no_of_pages}",
+    "Yahoo": "https://news.search.yahoo.com/search?p={company_key}&b{page}",
+    "Bing": "https://www.bing.com/news/search?q={company_key}&first={page}"
+    }
+}
